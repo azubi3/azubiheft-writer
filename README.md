@@ -22,12 +22,12 @@ Um den Azubiheft-Writer zu verwenden, folgen Sie bitte den nachstehenden Schritt
 
 ```
 
-4. ```bash
+4. ```
 pip -r install requirements.txt
 ```
 5. Starten mit python azubiheft-writer.py und den anfang des Satzes eingeben ca. 2 Wörter der rest wird Generiert.
 
 ## Hinweis
-Das Modell wurde mit sehr wenig daten Trainiert es ist so dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
+Das Modell wurde mit sehr wenig daten Trainiert. Es ist so, dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
 Das Projekt dient nur zum Lernen von Machine Learning Projekten in Python.
 
