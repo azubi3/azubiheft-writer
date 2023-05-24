@@ -23,7 +23,7 @@ Um den Azubiheft-Writer zu verwenden, folgen Sie bitte den nachstehenden Schritt
 ```
 
 4. ```
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 5. Starten mit python azubiheft-writer.py und den anfang des Satzes eingeben ca. 2 Wörter der rest wird Generiert.
 
