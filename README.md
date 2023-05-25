@@ -26,6 +26,7 @@ Um den Azubiheft-Writer zu verwenden, folgen Sie bitte den nachstehenden Schritt
 pip install -r requirements.txt
 ```
 5. Starten mit ```python generate-azubiheft.py``` und den anfang des Satzes eingeben ca. 2 Wörter der rest wird Generiert.
+```Verwalten von``` oder ```Mitarbeit an``` etc.
 
 ## Hinweis
 Das Modell wurde mit sehr wenig daten Trainiert. Es ist so, dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
