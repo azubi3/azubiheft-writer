@@ -14,4 +14,5 @@ while True:
         sentence = generated_seq[:generated_seq.index('.')+1].strip()
         print(sentence)
     except:
-        print(generated_seq)
+        sentence = generated_seq[:generated_seq.index('\n')+1].strip()+"."
+        print(sentence)
