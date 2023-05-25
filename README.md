@@ -29,6 +29,6 @@ pip install -r requirements.txt
 ```Verwalten von``` oder ```Mitarbeit an``` etc.
 
 ## Hinweis
-Das Modell wurde mit sehr wenig daten Trainiert. Es ist so, dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
+Das Modell wurde mit sehr wenig daten von Anwedungsentwicklungs Berichte Trainiert. Es ist so, dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
 Das Projekt dient nur zum Lernen von Machine Learning Projekten in Python.
 
