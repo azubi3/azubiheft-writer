@@ -34,3 +34,6 @@ pip install -r requirements.txt
 Das Modell wurde mit sehr wenig daten von Anwedungsentwicklungs Berichte Trainiert. Es ist so, dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
 Das Projekt dient nur zum Lernen von Machine Learning Projekten in Python.
 
+### Wundervolles Beispiel:
+![example](https://bitbucket.org/supervista/azubiheft-writer/downloads/example.png)
+
