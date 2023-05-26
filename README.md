@@ -13,7 +13,7 @@ Um den Azubiheft-Writer zu verwenden, folgen Sie bitte den nachstehenden Schritt
 1. Dieses Repo klonen
 
 2. Das model runterladen von google drive und den inhalt in den ordner model extrahieren.
-    - dbmdz/german-gpt2 https://drive.google.com/file/d/1VB35eo4mfPD-xtZUMs4909mOJEx4sRZ3/view?usp=sharing
+    - altes modell https://drive.google.com/file/d/1VB35eo4mfPD-xtZUMs4909mOJEx4sRZ3/view?usp=sharing
     - neueres modell https://drive.google.com/file/d/1opPakVBfldtl_fw7D-znFzrBRhcP6SyU/view?usp=sharing
 3. Ordner struktur sollte so aussehen:
 ```bash
