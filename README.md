@@ -36,4 +36,4 @@ Das Projekt dient nur zum Lernen von Machine Learning Projekten in Python.
 
 ### Wundervolles Beispiel:
 ![example](https://bitbucket.org/supervista/azubiheft-writer/downloads/example.png)
-![example-alt](https://imgur.com/O202T2v)
+![example-alt](https://bitbucket.org/supervista/azubiheft-writer/downloads/example-alt.png)
