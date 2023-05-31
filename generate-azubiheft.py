@@ -6,25 +6,20 @@ model_path = "model"
 
 generator = pipeline('text-generation', model=model_path)
 
-def generate_sequence(stichwort):
-    set_seed(randrange(1000000))
-    a = generator(stichwort, max_length=30, num_return_sequences=5, pad_token_id=generator.tokenizer.eos_token_id)
-    sentence = None
-    iterator=0
-    while sentence is None:
+prompt = "Nenne mir einen Ausbildungsbericht."
+
+def set_text(input_text):
+    error = True
+    while error == True:
+        set_seed(randrange(1000000))
+        a = generator(prompt, max_length=30, num_return_sequences=1, pad_token_id=generator.tokenizer.eos_token_id, temperature=1)
+        generated_seq = a[0]['generated_text']
         try:
-            generated_seq = a[iterator]['generated_text']
-            sentence = generated_seq[:generated_seq.index('.')+1].strip()
+            l = generated_seq.replace(prompt,"").replace("\n","").replace(prompt,"")
+            error = False
+            return(l.split('.')[0]+".")
         except:
-            iterator+=1
-            if iterator > 5:
-                sentence = "Error, try again."
-    return sentence
+            pass
 
-def my_function(stichwort):
-    return generate_sequence(stichwort)
-
-ui = gr.Interface(fn=my_function, inputs=[gr.Textbox(label="Anfang des Satzes")],
-                  outputs=[gr.Textbox(label="Generierter Bericht")], allow_flagging="never")
-
-ui.launch()
+iface = gr.Interface(fn=set_text, inputs=None, outputs=[gr.Textbox(label="Generierter Bericht")], title="Azubi Bericht Generator", allow_flagging="never")
+iface.launch()
