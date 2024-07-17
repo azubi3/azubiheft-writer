@@ -13,8 +13,6 @@ Um den Azubiheft-Writer zu verwenden, folgen Sie bitte den nachstehenden Schritt
 1. Dieses Repo klonen
 
 2. Das model runterladen von google drive und den inhalt in den ordner model extrahieren.
-    - ~~altes modell https://drive.google.com/file/d/1VB35eo4mfPD-xtZUMs4909mOJEx4sRZ3/view?usp=sharing~~
-    - ~~neueres modell https://drive.google.com/file/d/1opPakVBfldtl_fw7D-znFzrBRhcP6SyU/view?usp=sharing~~
     - aktuelles modell (ohne input) https://drive.google.com/file/d/1--K17i0HhN2D4MQxPEOZfufAOVZMQh35/view?usp=drive_link
 3. Ordner struktur sollte so aussehen:
 ```bash
@@ -33,7 +31,3 @@ pip install -r requirements.txt
 ## Hinweis
 Das Modell wurde mit sehr wenig daten von Anwedungsentwicklungs Berichte Trainiert. Es ist so, dass fehlerhafte Texte generiert werden die keinen Sinn ergeben.
 Das Projekt dient nur zum Lernen von Machine Learning Projekten in Python.
-
-### Wundervolles Beispiel:
-![example](https://bitbucket.org/supervista/azubiheft-writer/downloads/example.png)
-![example-alt](https://bitbucket.org/supervista/azubiheft-writer/downloads/example-alt.png)
